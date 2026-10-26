@@ -1,0 +1,55 @@
+{
+  "topics": [
+    { "id": "daily", "title": "Daily life", "translation": "Повседневная жизнь", "description": "Little words for everyday moments.", "icon": "sun", "color": "peach" },
+    { "id": "school", "title": "School & study", "translation": "Школа и учёба", "description": "Feel at home in the classroom.", "icon": "book", "color": "lilac" },
+    { "id": "travel", "title": "Around the world", "translation": "Путешествия", "description": "Your first words for a new adventure.", "icon": "globe", "color": "mint" }
+  ],
+  "words": [
+    { "id": "friend", "topic": "daily", "word": "friend", "ipa": "/frend/", "translation": "друг", "example": "My friend is very kind.", "exampleRu": "Мой друг очень добрый." },
+    { "id": "home", "topic": "daily", "word": "home", "ipa": "/həʊm/", "translation": "дом", "example": "I am at home.", "exampleRu": "Я дома." },
+    { "id": "water", "topic": "daily", "word": "water", "ipa": "/ˈwɔːtə/", "translation": "вода", "example": "I drink water every day.", "exampleRu": "Я пью воду каждый день." },
+    { "id": "breakfast", "topic": "daily", "word": "breakfast", "ipa": "/ˈbrekfəst/", "translation": "завтрак", "example": "I have breakfast at eight.", "exampleRu": "Я завтракаю в восемь." },
+    { "id": "happy", "topic": "daily", "word": "happy", "ipa": "/ˈhæpi/", "translation": "счастливый", "example": "I am happy today.", "exampleRu": "Я сегодня счастлив." },
+    { "id": "morning", "topic": "daily", "word": "morning", "ipa": "/ˈmɔːnɪŋ/", "translation": "утро", "example": "I read in the morning.", "exampleRu": "Я читаю утром." },
+    { "id": "family", "topic": "daily", "word": "family", "ipa": "/ˈfæməli/", "translation": "семья", "example": "I love my family.", "exampleRu": "Я люблю свою семью." },
+    { "id": "book", "topic": "daily", "word": "book", "ipa": "/bʊk/", "translation": "книга", "example": "This is my favourite book.", "exampleRu": "Это моя любимая книга." },
+    { "id": "learn", "topic": "school", "word": "learn", "ipa": "/lɜːn/", "translation": "учить, изучать", "example": "I learn English at school.", "exampleRu": "Я изучаю английский в школе." },
+    { "id": "teacher", "topic": "school", "word": "teacher", "ipa": "/ˈtiːtʃə/", "translation": "учитель", "example": "Our teacher is helpful.", "exampleRu": "Наш учитель всегда помогает." },
+    { "id": "student", "topic": "school", "word": "student", "ipa": "/ˈstjuːdənt/", "translation": "ученик, студент", "example": "I am a student.", "exampleRu": "Я ученик." },
+    { "id": "question", "topic": "school", "word": "question", "ipa": "/ˈkwestʃən/", "translation": "вопрос", "example": "Can I ask a question?", "exampleRu": "Можно задать вопрос?" },
+    { "id": "answer", "topic": "school", "word": "answer", "ipa": "/ˈɑːnsə/", "translation": "ответ", "example": "This is the right answer.", "exampleRu": "Это правильный ответ." },
+    { "id": "write", "topic": "school", "word": "write", "ipa": "/raɪt/", "translation": "писать", "example": "I write in my notebook.", "exampleRu": "Я пишу в своей тетради." },
+    { "id": "read", "topic": "school", "word": "read", "ipa": "/riːd/", "translation": "читать", "example": "We read a short story.", "exampleRu": "Мы читаем короткий рассказ." },
+    { "id": "lesson", "topic": "school", "word": "lesson", "ipa": "/ˈlesən/", "translation": "урок", "example": "The lesson starts at nine.", "exampleRu": "Урок начинается в девять." },
+    { "id": "ticket", "topic": "travel", "word": "ticket", "ipa": "/ˈtɪkɪt/", "translation": "билет", "example": "I need a train ticket.", "exampleRu": "Мне нужен билет на поезд." },
+    { "id": "airport", "topic": "travel", "word": "airport", "ipa": "/ˈeəpɔːt/", "translation": "аэропорт", "example": "We are at the airport.", "exampleRu": "Мы в аэропорту." },
+    { "id": "city", "topic": "travel", "word": "city", "ipa": "/ˈsɪti/", "translation": "город", "example": "London is a big city.", "exampleRu": "Лондон — большой город." },
+    { "id": "map", "topic": "travel", "word": "map", "ipa": "/mæp/", "translation": "карта", "example": "Look at the map.", "exampleRu": "Посмотри на карту." },
+    { "id": "hotel", "topic": "travel", "word": "hotel", "ipa": "/həʊˈtel/", "translation": "отель", "example": "Our hotel is near the park.", "exampleRu": "Наш отель рядом с парком." },
+    { "id": "train", "topic": "travel", "word": "train", "ipa": "/treɪn/", "translation": "поезд", "example": "The train is on time.", "exampleRu": "Поезд приходит вовремя." },
+    { "id": "journey", "topic": "travel", "word": "journey", "ipa": "/ˈdʒɜːni/", "translation": "поездка", "example": "Have a nice journey!", "exampleRu": "Счастливого пути!" },
+    { "id": "hello", "topic": "travel", "word": "hello", "ipa": "/həˈləʊ/", "translation": "привет", "example": "Hello! Nice to meet you.", "exampleRu": "Привет! Приятно познакомиться." }
+  ],
+  "grammar": [
+    { "question": "I ___ a student.", "options": ["am", "is", "are", "be"], "answer": "am", "explanation": "Use am with I: I am a student.", "explanationRu": "С I используем am: I am — я являюсь." },
+    { "question": "She ___ English every day.", "options": ["study", "studies", "studying", "are study"], "answer": "studies", "explanation": "With he, she and it in the present simple, study becomes studies.", "explanationRu": "В Present Simple после he, she, it глагол study меняется на studies." },
+    { "question": "They ___ my friends.", "options": ["is", "am", "are", "be"], "answer": "are", "explanation": "Use are with they, we and you.", "explanationRu": "С they, we и you используем are." },
+    { "question": "I have ___ apple.", "options": ["a", "an", "two", "are"], "answer": "an", "explanation": "Use an before a vowel sound: an apple.", "explanationRu": "Перед гласным звуком используем an: an apple." },
+    { "question": "He ___ like coffee.", "options": ["don't", "doesn't", "isn't", "aren't"], "answer": "doesn't", "explanation": "Use doesn't + the base verb with he, she and it.", "explanationRu": "Для отрицания с he, she, it используем doesn't + глагол без окончания." },
+    { "question": "___ you speak English?", "options": ["Does", "Do", "Is", "Am"], "answer": "Do", "explanation": "Use Do to ask a present simple question with you.", "explanationRu": "Вопрос в Present Simple с you начинается с Do." },
+    { "question": "There ___ a book on the table.", "options": ["are", "am", "is", "be"], "answer": "is", "explanation": "Use there is for one thing: a book.", "explanationRu": "Для одного предмета используем there is." },
+    { "question": "We go to school ___ Monday.", "options": ["in", "at", "on", "to"], "answer": "on", "explanation": "Use on with days of the week.", "explanationRu": "С днями недели используем предлог on." },
+    { "question": "This is ___ book.", "options": ["I", "me", "my", "mine"], "answer": "my", "explanation": "Use my before a noun: my book.", "explanationRu": "Перед существительным используем my: my book — моя книга." },
+    { "question": "Look! The cat ___ sleeping.", "options": ["are", "am", "is", "do"], "answer": "is", "explanation": "Use is + verb-ing for one thing happening now.", "explanationRu": "Для действия одного предмета прямо сейчас: is + глагол с -ing." },
+    { "question": "Yesterday, I ___ at home.", "options": ["am", "are", "was", "were"], "answer": "was", "explanation": "Use was with I for the past: I was at home.", "explanationRu": "В прошедшем времени с I используем was." },
+    { "question": "There are two ___ in my bag.", "options": ["book", "books", "a book", "booking"], "answer": "books", "explanation": "Add -s to make the plural of book: two books.", "explanationRu": "Во множественном числе добавляем -s: two books — две книги." }
+  ],
+  "sentences": [
+    { "id": "s1", "translation": "Я изучаю английский каждый день.", "words": ["I", "learn", "English", "every", "day."] },
+    { "id": "s2", "translation": "Она моя подруга.", "words": ["She", "is", "my", "friend."] },
+    { "id": "s3", "translation": "Мы ходим в школу.", "words": ["We", "go", "to", "school."] },
+    { "id": "s4", "translation": "Мне нужен билет на поезд.", "words": ["I", "need", "a", "train", "ticket."] },
+    { "id": "s5", "translation": "Это моя любимая книга.", "words": ["This", "is", "my", "favourite", "book."] },
+    { "id": "s6", "translation": "Ты говоришь по-английски?", "words": ["Do", "you", "speak", "English?"] }
+  ]
+}
